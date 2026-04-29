@@ -29,3 +29,24 @@ const favorittAnimeFilmer = [
 ];
 
 console.log(favorittAnimeFilmer);
+
+
+const container = document.createElement("main");
+
+favorittAnimeFilmer.forEach(function(film)){
+    const kort = document.createElement("div");
+
+    kort.classList.add("filmKort");
+
+    const tittel = document.createElement("h3");
+    tittel.textContent = film.tittel;
+
+    const årstall = document.createElement("p");
+    årstall.textContent = "Årstall: " + film.årstall;
+
+    const regissør = document.createElement("p");
+    regissør.textContent = "Reggisør: " + film.reggisør;
+
+    kort.appendChild(tittel)
+
+}
