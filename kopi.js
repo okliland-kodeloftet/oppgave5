@@ -62,5 +62,3 @@ favorittAnimeFilmer.forEach(function(film){
     container.appendChild(kort);
     
 });
-
-document.body.appendChild(container);
