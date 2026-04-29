@@ -1,5 +1,16 @@
 console.log('Hello!');
 
+const apiKey = "fbcc9a96f459c60666c73ddb0e5c88e9";
+
+const filmer = [
+    "Akira",
+    "Perfect Blue",
+    "Ghost in the Shell",
+    "Paprika"
+];
+
+const container = document.createElement("main");
+document.body.appendChild(container);
 
 
 const favorittAnimeFilmer = [
@@ -31,7 +42,7 @@ const favorittAnimeFilmer = [
 console.log(favorittAnimeFilmer);
 
 
-const container = document.createElement("main");
+
 
 favorittAnimeFilmer.forEach(function(film){
     const kort = document.createElement("div");
