@@ -10,15 +10,15 @@ const favorittAnimeFilmer = [
     },
 
     {
-        tittel: "Perfect Blue",
-        årstall: 1997,
-        regissør: "Satoshi Kon"
-    },
-
-    {
         tittel: "Ghost in the Shell",
         årstall: 1995,
         regissør: "Mamoru Oshii"
+    },
+
+    {
+        tittel: "Perfect Blue",
+        årstall: 1997,
+        regissør: "Satoshi Kon"
     },
 
     {
