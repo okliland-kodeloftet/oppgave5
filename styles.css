@@ -48,3 +48,21 @@ main{
 h2{
     color: var(--darkColor);
 }
+
+
+
+@media (max-width: 426px){
+  
+    main{
+      display: flex;
+      flex-direction: column;
+      
+    }
+  
+  
+  .filmKort{
+    width: 14rem;
+    padding: 1.5rem;
+  }
+
+  }
