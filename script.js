@@ -33,7 +33,7 @@ console.log(favorittAnimeFilmer);
 
 const container = document.createElement("main");
 
-favorittAnimeFilmer.forEach(function(film)){
+favorittAnimeFilmer.forEach(function(film){
     const kort = document.createElement("div");
 
     kort.classList.add("filmKort");
@@ -45,8 +45,14 @@ favorittAnimeFilmer.forEach(function(film)){
     årstall.textContent = "Årstall: " + film.årstall;
 
     const regissør = document.createElement("p");
-    regissør.textContent = "Reggisør: " + film.reggisør;
+    regissør.textContent = "Regissør: " + film.regissør;
 
-    kort.appendChild(tittel)
+    kort.appendChild(tittel);
+    kort.appendChild(årstall);
+    kort.appendChild(regissør);
 
-}
+    container.appendChild(kort);
+    
+});
+
+document.body.appendChild(container);
