@@ -41,7 +41,17 @@ function lagKort(film, bildeUrl){
     
 }
 
+try {
+    
+    
+ 
+
 favorittAnimeFilmer.forEach(function(film){
+
+        if(!film.tittel){
+            throw new Error("Film mangler tittel!");
+        }
+
     const kort = document.createElement("div");
 
     kort.classList.add("filmKort");
@@ -55,6 +65,9 @@ favorittAnimeFilmer.forEach(function(film){
     const regissør = document.createElement("p");
     regissør.textContent = "Regissør: " + film.regissør;
 
+
+    
+
     kort.appendChild(tittel);
     kort.appendChild(årstall);
     kort.appendChild(regissør);
@@ -63,4 +76,17 @@ favorittAnimeFilmer.forEach(function(film){
     
 });
 
-document.body.appendChild(container);
+
+
+}catch (error) {
+    
+    console.error("En feil oppstod:", error.message);
+  }
+
+ finally {
+    
+    console.log("Forsøk ferdig.");
+  }
+
+
+  document.body.appendChild(container);

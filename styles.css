@@ -29,7 +29,7 @@ main{
     gap: 2rem;
     padding: 2rem;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .filmKort{
@@ -61,7 +61,7 @@ h2{
   
   
   .filmKort{
-    width: 14rem;
+    width: 25rem;
     padding: 1rem;
   }
 
