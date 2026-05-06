@@ -32,6 +32,10 @@ main{
     flex-direction: row;
 }
 
+h1{
+  font-size: 5rem;
+}
+
 h2{
   font-size: 2rem;
   color: whitesmoke;
@@ -75,4 +79,11 @@ h2{
     padding: 1rem;
   }
 
+  .overskrift{
+    text-align: center;
+    width: 50%; 
+    margin: 0 auto; 
+    padding: auto;
+    
+  }
   }
