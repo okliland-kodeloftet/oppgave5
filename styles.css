@@ -66,6 +66,12 @@ p{
 }
 
 
+@media (max-width: 768px){
+  .overskrift{
+    text-align: center;
+  }
+
+}
 
 
 
@@ -88,6 +94,8 @@ p{
     width: 50%; 
     margin: 0 auto; 
     padding: auto;
+    font-size: 2rem;
+    
     
   }
   }
