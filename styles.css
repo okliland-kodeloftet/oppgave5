@@ -32,6 +32,11 @@ main{
     flex-direction: row;
 }
 
+h2{
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
 .overskrift{
   display: flex;
   flex-direction: row;
@@ -51,6 +56,8 @@ main{
 .filmKort:hover{
     transform: scale(1.03);
 }
+
+
 
 
 
