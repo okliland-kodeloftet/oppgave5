@@ -52,11 +52,11 @@ favorittAnimeFilmer.forEach(function(film){
             throw new Error("Film mangler tittel!");
         }
 
-    const kort = document.createElement("div");
+    const kort = document.createElement("article");
 
     kort.classList.add("filmKort");
 
-    const tittel = document.createElement("h3");
+    const tittel = document.createElement("h2");
     tittel.textContent = film.tittel;
 
     const årstall = document.createElement("p");

@@ -32,6 +32,13 @@ main{
     flex-direction: row;
 }
 
+.overskrift{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: aqua;
+}
+
 .filmKort{
     background-color: var(--accentSecColor);
     width: 25rem;
@@ -43,10 +50,6 @@ main{
 
 .filmKort:hover{
     transform: scale(1.03);
-}
-
-h2{
-    color: var(--darkColor);
 }
 
 
