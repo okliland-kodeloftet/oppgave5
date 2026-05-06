@@ -89,4 +89,3 @@ favorittAnimeFilmer.forEach(function(film){
   }
 
 
-  document.body.appendChild(container);
